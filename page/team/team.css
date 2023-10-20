@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container_team {
+    width: 1920px;
+    height: 2310px;
+    left: 0px;
+    top: 0px;
+    position: relative;
+    background: #ffffff;
+}
+
+.container_team_line_One {
+    width: 1200px;
+    height: 2310.39px;
+    left: 360px;
+    top: 0px;
+    border: 1px solid #e6e6e6;
+    position: absolute;
+}
+
+.check {
+    position: absolute;
+    width: 33.3%;
+    height: 2310.39px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid #e6e6e6;
+}
+
+.container_team_images {
+    width: 1910px;
+    z-index: 10;
+    height: 356px;
+    background-image: url(../../assets/images/img_bg-team.jpg);
+    background-repeat: no-repeat;
+    margin: 10px auto;
+    position: absolute;
+}
+
+.container_team_layout {
+    position: absolute;
+    z-index: 10;
+    width: 30%;
+    height: 180px;
+    background: #ffffff;
+    top: 210px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 37px 37px 0px 0px;
+    padding: 41px, 152px, 41px, 152px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_team_people_first {
+    width: 1200.19px;
+    height: 550.5px;
+    position: absolute;
+    top: 550px;
+    right: 360px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_team_people_first_one {
+    width: 283.55px;
+    height: 550.5px;
+}
+
+.container_team_people_first_one_img {
+    width: 283.55px;
+    height: 433px;
+}
+
+.container_team_people_first_one_img img {
+    width: 283.55px;
+    height: 433px;
+    border-radius: 30px;
+}
+
+.container_team_people_first_one_content h4 {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    width: 100%;
+    text-align: center;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #292F36;
+}
+
+.container_team_people_first_one_content h5 {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #292F36;
+    margin-left: 70px;
+    margin-bottom: 10px;
+}
+
+.container_team_people_first_one_content_icon {
+    width: 70.74px;
+    height: 21.03px;
+    margin-left: 105px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_team_people_first_one_content_icon img {
+    width:13px;
+    height: 18.03px;
+}
+.container_team_people_second{
+    display: flex;
+    width: 1200.19px;
+    height: 550.5px;
+    position: absolute;
+    top: 1150px;
+    right: 360px;
+    display: flex;
+    justify-content: space-between;
+}

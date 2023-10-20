@@ -1,0 +1,304 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wraper_services {
+    width: 1921px;
+    height: 4571px;
+    background-color: rgba(255, 255, 255, 1);
+    position: relative;
+}
+
+.container_services_images {
+    width: 1910px;
+    z-index: 10;
+    height: 356px;
+    background-image: url(../../assets/images/img_service_single.png);
+    background-repeat: no-repeat;
+    margin: 10px auto;
+    position: absolute;
+}
+
+.container_services_layout {
+    position: absolute;
+    z-index: 10;
+    width: 30%;
+    height: 180px;
+    background: #ffffff;
+    top: 210px;
+    left: 53%;
+    transform: translateX(-50%);
+    border-radius: 37px 37px 0px 0px;
+    padding: 41px, 152px, 41px, 152px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wraper_services_line {
+    position: absolute;
+    width: 1200px;
+    height: 4548.73px;
+    left: 460px;
+    display: flex;
+    justify-content: space-between;
+    top: 0px;
+    z-index: 1;
+    border: 1px solid rgba(230, 230, 230, 1);
+}
+
+.wraper_services_line .bigOne {
+    width: 30%;
+    height: 100%;
+    border-right: 1px solid #dedede;
+}
+
+.wraper_services_line .bigOne_content_top {
+    width: 360px;
+    height: 270px;
+    margin-top: 500px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.bigOne_content_top h4 {
+    font-size: 25px;
+    line-height: 125%;
+    font-weight: 600;
+    color: #292f36;
+}
+
+.bigOne_content_top p {
+    margin: 20px auto;
+    font-size: 22px;
+    font-weight: 400px;
+    letter-spacing: 0.01em;
+    color: #4d5053;
+}
+
+.bigOne_content_bottom h4 {
+    font-size: 25px;
+    line-height: 125%;
+    font-weight: 600;
+    color: #292f36;
+}
+
+.bigOne_content_bottom p {
+    margin: 20px auto;
+    font-size: 22px;
+    font-weight: 400px;
+    letter-spacing: 0.01em;
+    color: #4d5053;
+}
+
+.bigOne img {
+    width: 15.14px;
+    height: 13.18px
+}
+
+.wraper_services_line .bigOne_content_bottom {
+    width: 360px;
+    height: 270px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.container_services_menu {
+    width: 1921px;
+    height: 1520px;
+    position: absolute;
+    top: 1200px;
+}
+
+.wraper_services_menu {
+    width: 100%;
+}
+
+.wraper_services_menu_info {
+    width: 1199px;
+    height: 2590px;
+    background-color: #f4f0ec;
+    border-radius: 70px;
+    position: absolute;
+    z-index: 10;
+    margin-left: 460px;
+}
+
+.wraper_services_menu_info .text h4 {
+    width: 100%;
+    height: 80px;
+    font-family: "DM Serif Display";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 125%;
+    text-align: center;
+    color: #363b41;
+    margin-top: 160px;
+}
+
+.wraper_services_menu_info .text p {
+    width: 802px;
+    height: 66px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #4D5053;
+    padding-left: 198.5px;
+}
+
+.wraper_services_menu_info .card {
+    width: 90%;
+    height: 350px;
+    margin-left: 5%;
+    display: flex;
+}
+
+.wraper_services_menu_info .images {
+    width: 485.6px;
+    height: 353px;
+    margin: 2.5%;
+}
+
+.wraper_services_menu_info .content {
+    width: 45%;
+    height: 400px;
+    margin: 2.5%;
+    display: flex;
+}
+
+.wraper_services_menu_info .content .number {
+    width: 100%;
+    height: 500px;
+}
+
+.wraper_services_menu_info .content .number .icon {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    width: 80%;
+}
+
+.wraper_services_menu_info .content .number .icon .iconSecond {
+    width: 107px;
+    height: 102px;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 120px;
+    line-height: 125%;
+    color: #FFFFFF;
+}
+
+.wraper_services_menu_info .number .text {
+    width: 40%;
+    height: 15%;
+    position: absolute;
+}
+
+.container_services_contact {
+    width: 1199px;
+    height: 374px;
+    margin-left: 31.2%;
+    background: #292F36;
+    border-radius: 70px;
+    z-index: 10;
+    position: absolute;
+    top: 2800px;
+    right: 260px;
+}
+
+.container_services_contact .context h4 {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 125%;
+    color: #FFFFFF;
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.container_services_contact .context p {
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.container_services_contact .btn {
+    flex-direction: column;
+    margin-top: 30px;
+    padding: 15px 30px;
+    cursor: pointer;
+    gap: 10px;
+    width: 140.14px;
+    height: 20px;
+    background: #CDA274;
+    box-shadow: 0px 10px 20px #1F2022;
+    border-radius: 18px;
+    color: #ffffff;
+    text-align: center;
+    margin-left: 480.93px;
+}
+
+.wraper_services_menu_info .card .images img {
+    border-radius: 326.5px 0px 123px
+}
+
+.wraper_services_menu_info .card .icon .iconFirst {
+    width: 92px;
+    height: 92px;
+    margin-top: 15px
+}
+
+.wraper_services_menu_info .card .icon .text h4 {
+    width: 60%;
+    height: 60px;
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 600px;
+    font-size: 35px;
+    line-height: 125%;
+}
+
+.wraper_services_menu_info .card .icon .text h3 {
+    width: 80%;
+    height: 100px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+}
+
+.container_services_contact .context .h4 {
+    font-family: 'DM Serif Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.container_services_contact .context .btn img {
+    width: 15.14px;
+    height: 13.18px;
+    margin-left: 5px
+}
+.card{
+    margin-top: 200px;
+}
